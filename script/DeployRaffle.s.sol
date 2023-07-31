@@ -34,7 +34,7 @@ contract DeployRaffle is Script {
             );
         }
 
-        vm.startBroadcast();
+        // vm.startBroadcast();
         Raffle raffle = new Raffle(
             entranceFee,
             interval,
@@ -43,7 +43,7 @@ contract DeployRaffle is Script {
             subscriptionId,
             callbackGasLimit
         );
-        vm.startBroadcast();
+        // vm.startBroadcast();
 
         AddConsumer addConsumer = new AddConsumer();
         addConsumer.addConsumer(
