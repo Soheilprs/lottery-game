@@ -10,8 +10,8 @@
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/foundry-smart-contract-lottery-f23
-cd foundry-smart-contract-lottery-f23
+git clone https://github.com/soheil/lottery-game
+cd lottery-game
 forge build
 ```
 
